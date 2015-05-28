@@ -1,0 +1,58 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<ctype.h>
+
+void decrypt(FILE *f)
+{
+  int c,n, key,a, array[26],temp;
+  for (int i=0; i<26; i++)
+    {
+      array[i]=0;
+    }
+  while ((c = fgetc(f)) != EOF) {
+    if(isalpha(c)) {
+      c= tolower(c);
+      n= c - 97;
+      array[n-1]++;
+    }
+  }
+  temp=array[0]; 
+    for (int k=0;k<26;k++)
+      {
+	if(array[k]>temp){
+	  temp=array[k];
+	  a=k;
+	}
+      }
+
+    key=0;
+    a++;
+    a=a+97;
+    c=a;
+    c=c - 'a';
+    c=c % 26;
+    key = c - 'e' + 'a';
+    
+    fprintf(stdout,"%d\n",key);
+
+  
+}
+    
+    
+    
+      
+int main(int argc, char ** argv) {
+
+  FILE *f = fopen(argv[1], "r");
+  if (f == NULL) {
+    printf("Could not open file");
+    return EXIT_FAILURE;
+  }
+  
+  decrypt(f);
+  if(fclose(f)!=0) {
+    printf("Failed to close the input file!");
+    return EXIT_FAILURE;
+  }
+  return EXIT_SUCCESS;
+}

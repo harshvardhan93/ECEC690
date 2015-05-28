@@ -1,0 +1,42 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+code.cpp
+Makefile
+README
+==
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p2'
+make: *** No rule to make target `expr.h', needed by `expr'.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p2'): skipping all tests
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p3'
+make: *** No rule to make target `expr.h', needed by `expr'.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p3'): skipping all tests
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p4'
+make: *** No rule to make target `expr.h', needed by `expr'.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c13/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

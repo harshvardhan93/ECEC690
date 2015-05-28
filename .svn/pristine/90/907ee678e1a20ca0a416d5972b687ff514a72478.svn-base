@@ -1,0 +1,133 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Valgrind reported errors and memory leaks:
+========
+==21306== Memcheck, a memory error detector
+==21306== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==21306== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==21306== Command: /mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c08/p1//test
+==21306== Parent PID: 21305
+==21306== 
+==21306== 
+==21306== HEAP SUMMARY:
+==21306==     in use at exit: 32 bytes in 3 blocks
+==21306==   total heap usage: 3 allocs, 0 frees, 32 bytes allocated
+==21306== 
+==21306== 8 bytes in 1 blocks are definitely lost in loss record 1 of 3
+==21306==    at 0x4A069EE: malloc (vg_replace_malloc.c:270)
+==21306==    by 0x4004D8: f (test.c:5)
+==21306==    by 0x400540: main (test.c:16)
+==21306== 
+==21306== 8 bytes in 1 blocks are definitely lost in loss record 2 of 3
+==21306==    at 0x4A069EE: malloc (vg_replace_malloc.c:270)
+==21306==    by 0x40055B: main (test.c:18)
+==21306== 
+==21306== 16 bytes in 1 blocks are definitely lost in loss record 3 of 3
+==21306==    at 0x4A069EE: malloc (vg_replace_malloc.c:270)
+==21306==    by 0x400522: main (test.c:13)
+==21306== 
+==21306== LEAK SUMMARY:
+==21306==    definitely lost: 32 bytes in 3 blocks
+==21306==    indirectly lost: 0 bytes in 0 blocks
+==21306==      possibly lost: 0 bytes in 0 blocks
+==21306==    still reachable: 0 bytes in 0 blocks
+==21306==         suppressed: 0 bytes in 0 blocks
+==21306== 
+==21306== For counts of detected and suppressed errors, rerun with: -v
+==21306== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 6 from 6)
+========
+This test was scored as incorrect
+This test counts as 50% of the score for this problem
+I could not find leaks.txt
+The files you have here are:
+==
+Makefile
+README
+test
+test.c
+==
+This test counts as 50% of the score for this problem
+This test was scored as incorrect (0)
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Your program segfaulted.
+The output you got does not match what was expected:
+							      >	fs jcfruqj
+							      >	tk ymj nsuzy.
+This test counts as 50% of the score for this problem
+This test was scored as incorrect (0)
+***********************
+* Starting test 2     *
+***********************
+Your program segfaulted.
+The output you got does not match what was expected:
+							      >	yl cvyknjc
+							      >	md rfc glnsr.
+This test counts as 50% of the score for this problem
+This test was scored as incorrect (0)
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Test case failed to produce the correct output!
+Differences (first 10 lines): 
+===============
+							      >	A is for Apple								
+							      >	A is for Apple again								
+							      >	Aardvarks are fun!								
+							      >	B is for Bear								
+							      >	C is for Cowboy								
+===============
+This test counts as 100% of the score for this problem
+This test was scored as incorrect (0)
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Your program segfaulted.
+This test counts as 25% of the score for this problem
+This test was scored as incorrect (0)
+***********************
+* Starting test 2     *
+***********************
+Your program segfaulted.
+This test counts as 25% of the score for this problem
+This test was scored as incorrect (0)
+***********************
+* Starting test 3     *
+***********************
+Your program segfaulted.
+This test counts as 25% of the score for this problem
+This test was scored as incorrect (0)
+***********************
+* Starting test 4     *
+***********************
+Your program segfaulted.
+This test counts as 25% of the score for this problem
+This test was scored as incorrect (0)
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

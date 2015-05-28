@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include "code.h"
+
+int main(void) {
+  //WRITE TESTS HERE FOR THE CODE
+
+
+#ifdef REPORT_COVERAGE
+  reportPathCoverage();
+#endif
+  return EXIT_SUCCESS;
+}

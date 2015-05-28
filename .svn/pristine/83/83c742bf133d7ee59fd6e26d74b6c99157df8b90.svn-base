@@ -1,0 +1,80 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+code.cpp
+README
+==
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p1'
+make: *** No targets specified and no makefile found.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p1'): skipping all tests
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+code.cpp
+code.h
+README
+==
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p2'
+make: *** No targets specified and no makefile found.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p2'): skipping all tests
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p3'
+g++    -c -o main.o main.cpp
+main.cpp:1:19: error: point.h: No such file or directory
+main.cpp:38: error: ‘Point’ has not been declared
+main.cpp: In function ‘void doMove(char*, int*, int)’:
+main.cpp:60: error: request for member ‘move’ in ‘*(points + ((long unsigned int)(((long unsigned int)pnum) * 4ul)))’, which is of non-class type ‘int’
+main.cpp: At global scope:
+main.cpp:65: error: ‘Point’ has not been declared
+main.cpp: In function ‘void doDistance(char*, int*, int)’:
+main.cpp:85: error: request for member ‘distanceFrom’ in ‘*(points + ((long unsigned int)(((long unsigned int)p1) * 4ul)))’, which is of non-class type ‘int’
+main.cpp: In function ‘int main()’:
+main.cpp:108: error: ‘Point’ was not declared in this scope
+main.cpp:108: error: ‘points’ was not declared in this scope
+main.cpp:108: error: expected type-specifier before ‘Point’
+main.cpp:108: error: expected ‘;’ before ‘Point’
+main.cpp:122: error: type ‘<type error>’ argument given to ‘delete’, expected pointer
+make: *** [main.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p3'): skipping all tests
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p4'
+g++    -c -o main.o main.cpp
+main.cpp:1:20: error: circle.h: No such file or directory
+main.cpp:43: error: ‘Circle’ has not been declared
+main.cpp: In function ‘void doMove(char*, int**, int)’:
+main.cpp:65: error: request for member ‘move’ in ‘* *(circles + ((long unsigned int)(((long unsigned int)cnum) * 8ul)))’, which is of non-class type ‘int’
+main.cpp: At global scope:
+main.cpp:70: error: ‘Circle’ has not been declared
+main.cpp: In function ‘void doIntersect(char*, int**, int)’:
+main.cpp:90: error: request for member ‘intersectionArea’ in ‘* *(circles + ((long unsigned int)(((long unsigned int)c1) * 8ul)))’, which is of non-class type ‘int’
+main.cpp: At global scope:
+main.cpp:94: error: variable or field ‘freeCircles’ declared void
+main.cpp:94: error: ‘Circle’ was not declared in this scope
+main.cpp:94: error: ‘circles’ was not declared in this scope
+main.cpp:94: error: expected primary-expression before ‘int’
+make: *** [main.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c10/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

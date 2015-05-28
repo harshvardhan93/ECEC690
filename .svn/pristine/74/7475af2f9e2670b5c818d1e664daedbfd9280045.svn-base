@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "kv.h"
+
+
+
+kvarray_t * readKVs(const char * fname) {
+  //WRITE ME
+  
+  kvarray_t kva;
+  kva.length=0;
+  char *line=NULL;
+  size_t num=0;
+      FILE *f = fopen(fname,"r");
+      while((getline(&line,&num,f))!=-1)
+	{
+	 kva.length++;
+	 kva.array=realloc(kva.array,kva.length*sizeof(kvpair_t)); 
+	num=0;
+	}
+	   	 
+      line=NULL;
+      rewind(f);
+      for(int i=0;i<kva.length;i++)
+	{
+	  while((getline(&line,&num,f))!=-1)
+	    {
+	      sscanf(line,"%s=%s",&kva.array[i].key,&kva.array[i].value);
+	    }
+	}
+  
+      return kva;
+      
+   
+      
+      
+}
+
+void freeKVs(kvarray_t * pairs) {
+  //WRITE ME
+}
+
+void printKVs(kvarray_t * pairs) {
+  //WRITE ME
+}
+
+char * lookupValue(kvarray_t * pairs, const char * key) {
+  //WRITE ME
+}

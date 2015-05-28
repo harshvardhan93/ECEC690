@@ -1,0 +1,38 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+This problem appears correct
+Percent this problem: 100 (= 40.0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+This problem appears correct
+Percent this problem: 100 (= 25.0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+==29480== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+==29480== All heap blocks were freed -- no leaks are possible
+Valgrind reported no problems
+Percent this problem: 100 (= 20.0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c11/p4'
+make: *** No rule to make target `IntArray.o', needed by `intMatrixTest'.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c11/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 85.0

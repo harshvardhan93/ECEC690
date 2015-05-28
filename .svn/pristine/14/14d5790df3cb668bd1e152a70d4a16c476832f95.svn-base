@@ -1,0 +1,72 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+This problem appears correct
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+Percent this problem: 100 (= 40.0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+This problem appears correct
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+Percent this problem: 100 (= 25.0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+==30451== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+==30451== All heap blocks were freed -- no leaks are possible
+Valgrind reported no problems
+This test counts as 50% of the score for this problem
+This test was scored as correct (50)
+***********************
+* Starting test 2     *
+***********************
+The output matches the expected output.
+==30456== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+==30456== All heap blocks were freed -- no leaks are possible
+Valgrind reported no problems
+This test counts as 50% of the score for this problem
+This test was scored as correct (50)
+Percent this problem: 100 (= 20.0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+==30479== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+==30479== All heap blocks were freed -- no leaks are possible
+Valgrind reported no problems
+This test counts as 50% of the score for this problem
+This test was scored as correct (50)
+***********************
+* Starting test 2     *
+***********************
+The output matches the expected output.
+==30484== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 6 from 6)
+==30484== All heap blocks were freed -- no leaks are possible
+Valgrind reported no problems
+This test counts as 50% of the score for this problem
+This test was scored as correct (50)
+Percent this problem: 100 (= 15.0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 100.0

@@ -1,0 +1,53 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Your program segfaulted.
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p2'
+gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 outname.c
+cc1: warnings being treated as errors
+outname.c: In function ‘computeOutputFileName’:
+outname.c:8: error: control reaches end of non-void function
+make: *** [outname.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p2'): skipping all tests
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p3'
+gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 counts.c
+cc1: warnings being treated as errors
+In file included from counts.c:4:
+counts.h:6: error: struct has no members
+counts.h:11: error: struct has no members
+make: *** [counts.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p3'): skipping all tests
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p4'
+gcc -c -Wall -Werror -std=gnu99 -pedantic -ggdb3 counts.c
+cc1: warnings being treated as errors
+In file included from counts.c:4:
+counts.h:6: error: struct has no members
+counts.h:11: error: struct has no members
+make: *** [counts.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c09/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

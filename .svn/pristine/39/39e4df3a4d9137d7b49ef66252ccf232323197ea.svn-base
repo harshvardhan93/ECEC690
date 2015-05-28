@@ -1,0 +1,54 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+This problem appears correct
+Percent this problem: 100 (= 40.0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+This problem appears correct
+Percent this problem: 100 (= 25.0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c12/p3'
+make: *** No targets specified and no makefile found.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c12/p3'): skipping all tests
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c12/p4'
+g++ -c --std=gnu++98 -pedantic -Wall -Werror -ggdb3 test.cpp
+test.cpp:2: error: expected initializer before ‘<’ token
+test.cpp: In function ‘int main()’:
+test.cpp:5: error: ‘IntMatrix’ was not declared in this scope
+test.cpp:5: error: expected ‘;’ before ‘a’
+test.cpp:6: error: ‘a’ was not declared in this scope
+test.cpp:11: error: ‘a’ was not declared in this scope
+test.cpp:12: error: expected ‘;’ before ‘b’
+test.cpp:14: error: ‘b’ was not declared in this scope
+test.cpp:20: error: ‘b’ was not declared in this scope
+test.cpp:25: error: ‘b’ was not declared in this scope
+test.cpp:33: error: expected ‘;’ before ‘c’
+test.cpp:34: error: ‘c’ was not declared in this scope
+test.cpp:38: error: ‘Matrix’ was not declared in this scope
+test.cpp:38: error: expected primary-expression before ‘>’ token
+test.cpp:38: error: ‘s1’ was not declared in this scope
+test.cpp:49: error: expected primary-expression before ‘>’ token
+test.cpp:49: error: ‘s2’ was not declared in this scope
+test.cpp:60: error: expected primary-expression before ‘>’ token
+test.cpp:60: error: ‘s3’ was not declared in this scope
+make: *** [test.o] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c12/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 65.0

@@ -1,0 +1,86 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "kv.h"
+
+
+
+kvarray_t * readKVs(const char * fname) {
+  //WRITE ME
+  
+  kvarray_t *kva=NULL;
+  kva->length=0;
+  kva->array=NULL;
+  char *line=NULL;
+  size_t num=0;
+      FILE *f = fopen(fname,"r");
+      while((getline(&line,&num,f))!=-1)
+	{
+	 kva->length++;
+	 kva=realloc(kva,kva->length*sizeof(*kva)); 
+	 num=0;
+	}
+      free(line);
+      line=NULL;
+      rewind(f);
+      for(int i=0;i<kva->length;i++)
+	{
+	  while((getline(&line,&num,f))!=-1)
+	    {
+	      if(strlen(line)==0)
+		break;
+	      char *temp=NULL;
+	      char *temp1=NULL;
+	      sscanf(line,"%s=%s",temp,temp1);
+	      
+	      strcpy(kva[i].array->key,temp);
+	      strcpy(kva[i].array->value,temp1);
+	      num=0;
+	    }
+	}
+      free(line);
+      if(fclose(f)!=0)
+	{
+	  printf("Couldn't close the file");
+	  return NULL;
+	}
+
+  
+      return kva;
+      
+   
+      
+      
+}
+
+void freeKVs(kvarray_t * pairs) {
+  //WRITE ME
+  free(pairs);
+}
+
+void printKVs(kvarray_t * pairs) {
+  //WRITE ME
+  int len;
+  len=pairs->length;
+  for(int i=0;i<len;i++)
+    {
+      printf("key = '%s' value = '%s'\n",pairs[i].array->key,pairs[i].array->value);
+      
+    }
+}
+
+char * lookupValue(kvarray_t * pairs, const char * key) {
+  //WRITE ME
+  int len=pairs->length;
+  for(int i=0;i<len;i++)
+    {
+      if(strcmp(pairs[i].array->key,key)==0)
+	{
+	  return pairs[i].array->key;
+	    }
+ 
+    }
+  return NULL;
+}
+  
+

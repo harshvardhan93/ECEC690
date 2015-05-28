@@ -1,0 +1,23 @@
+Grading p1 (worth 100 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c14/p1'
+g++ -o count -ggdb3 -Wall -Werror -pedantic -std=gnu++98 count.cpp
+count.cpp:39: error: variable or field ‘sort’ declared void
+count.cpp:39: error: ‘LinkedList’ was not declared in this scope
+count.cpp:39: error: expected primary-expression before ‘>’ token
+count.cpp:39: error: ‘ll’ was not declared in this scope
+count.cpp:56: error: expected constructor, destructor, or type conversion before ‘<’ token
+count.cpp:72: error: expected constructor, destructor, or type conversion before ‘<’ token
+count.cpp:85: error: variable or field ‘addInput’ declared void
+count.cpp:85: error: ‘LinkedList’ was not declared in this scope
+count.cpp:85: error: expected primary-expression before ‘>’ token
+count.cpp:85: error: ‘list’ was not declared in this scope
+count.cpp:85: error: expected primary-expression before ‘char’
+make: *** [count] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c14/p1'): skipping all tests
+Percent this problem: 0 (= 0 / 100 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

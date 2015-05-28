@@ -1,0 +1,72 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+This problem appears correct
+Percent this problem: 100 (= 40.0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+The output matches the expected output.
+Percent this problem: 100 (= 25.0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Test case failed to produce the correct output!
+Differences (first 10 lines): 
+===============
+Age  27 month  3 you have $97052.50			      |	Age  27 month  3 you have $21345.00
+Age  27 month  4 you have $437736.25			      |	Age  27 month  4 you have $22425.04
+Age  27 month  5 you have $1970813.12			      |	Age  27 month  5 you have $23509.14
+Age  27 month  6 you have $8869659.06			      |	Age  27 month  6 you have $24597.30
+Age  27 month  7 you have $39914465.78			      |	Age  27 month  7 you have $25689.54
+Age  27 month  8 you have $179616096.02			      |	Age  27 month  8 you have $26785.87
+Age  27 month  9 you have $808273432.07			      |	Age  27 month  9 you have $27886.32
+Age  27 month 10 you have $3637231444.32		      |	Age  27 month 10 you have $28990.89
+Age  27 month 11 you have $16367542499.42		      |	Age  27 month 11 you have $30099.61
+Age  28 month  0 you have $73653942247.41		      |	Age  28 month  0 you have $31212.48
+===============
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c02/p4'
+gcc -o rectangle -pedantic -std=gnu99 -Wall -Werror rectangle.c
+rectangle.c:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘canonicalize’
+rectangle.c:25: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘intersection’
+rectangle.c:31: error: expected ‘)’ before ‘r’
+rectangle.c: In function ‘main’:
+rectangle.c:43: error: ‘rectangle’ undeclared (first use in this function)
+rectangle.c:43: error: (Each undeclared identifier is reported only once
+rectangle.c:43: error: for each function it appears in.)
+rectangle.c:43: error: expected ‘;’ before ‘r1’
+rectangle.c:44: error: expected ‘;’ before ‘r2’
+rectangle.c:45: error: expected ‘;’ before ‘r3’
+rectangle.c:46: error: expected ‘;’ before ‘r4’
+rectangle.c:48: error: ‘r1’ undeclared (first use in this function)
+cc1: warnings being treated as errors
+rectangle.c:53: error: implicit declaration of function ‘printRectangle’
+rectangle.c:55: error: ‘r2’ undeclared (first use in this function)
+rectangle.c:62: error: ‘r3’ undeclared (first use in this function)
+rectangle.c:69: error: ‘r4’ undeclared (first use in this function)
+rectangle.c:77: error: expected ‘;’ before ‘i’
+rectangle.c:79: error: ‘i’ undeclared (first use in this function)
+rectangle.c:81: error: implicit declaration of function ‘intersection’
+make: *** [rectangle] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c02/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 65.0

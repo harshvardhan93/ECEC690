@@ -1,0 +1,52 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+struct _retire_info
+{
+  int months;
+  double dollars;
+  double rate;
+};
+
+typedef struct _retire_info retire_info;
+
+void retirement(int startAge, double initial, retire_info working, retire_info retired)
+{
+  double ac_balance=initial;
+  int totalage=working.months+retired.months;
+  
+  for(int i=startAge;i<=totalage;i++)
+    {
+      int i_year=i/12;
+      int i_month=i%12;
+      if(i<=working.months)
+	{
+	  ac_balance=((ac_balance*working.rate)+working.dollars);
+	  printf("Age %3d month %2d you have $%.2lf\n",i_year,i_month,ac_balance);
+	}
+      if(i>working.months)
+	{
+	  ac_balance=((ac_balance*retired.rate)+retired.dollars);
+	}
+    }
+
+}
+
+
+int main(void)
+{
+  retire_info working, retired;
+  int startAge;
+  double savings;
+  working.months=489;
+  working.dollars=1000;
+  working.rate=4.5;
+  retired.months=384;
+  retired.dollars=-4000;
+  retired.rate=1;
+  startAge=327;
+  savings=21345;
+  retirement(startAge, savings, working, retired);
+  
+  return EXIT_SUCCESS;
+}

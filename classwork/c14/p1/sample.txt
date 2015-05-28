@@ -1,0 +1,492 @@
+Removed Classwork
+Did not find 11
+Removed (
+Removed The
+Removed whole
+Removed thing
+Removed )
+Did not find ===============================
+Did not find ******************************************************
+Did not find **
+Removed For
+Removed this
+Removed program
+Removed ,
+Removed you
+Removed will
+Removed be
+Did not find pair
+Did not find programming
+Did not find Please
+Removed find
+Removed a
+Did not find partner
+Removed and
+Did not find together
+Removed In
+Did not find practicing
+Did not find using
+Did not find inheritance
+Did not find vritual
+Did not find methods
+Removed method
+Did not find overriding
+Removed to
+Did not find complete
+Removed simple
+Removed "
+Did not find calculator
+Removed which
+Did not find accepts
+Did not find input
+Removed in
+Did not find prefix
+Did not find notation
+Did not find ".
+Did not find That
+Removed is
+Did not find rather
+Did not find than
+Did not find entering
+Did not find 4
+Did not find +
+Did not find 3
+Did not find would
+Did not find enter
+Did not find "(+
+Removed )"
+Removed I
+Removed have
+Did not find written
+Did not find code
+Removed for
+Did not find expr
+Removed .
+Removed cpp
+Removed reads
+Removed the
+Did not find parses
+Removed it
+Removed makes
+Did not find Expression
+Did not find objects
+Did not find appropriately
+Removed You
+Removed should
+Removed not
+Did not find need
+Did not find modify
+Did not find at
+Removed all
+Did not find Instead
+Removed what
+Removed write
+Did not find implementation
+Removed of
+Removed class
+Removed its
+Did not find sub
+Removed -
+Did not find classes
+Did not find represent
+Did not find math
+Did not find expression
+Removed that
+Did not find gets
+Did not find read
+Removed as
+Removed well
+Did not find provide
+Did not find way
+Did not find print
+Did not find normally
+Did not find infix
+Removed :
+Did not find 5
+Did not find evaluate
+Removed an
+Did not find integer
+Removed Your
+Did not find must
+Removed following
+Removed with
+Did not find functionality
+Did not find parsing
+Did not find relies
+Removed on
+Did not find these
+Did not find existing
+Did not find names
+Did not find various
+Did not find types
+Did not find being
+Did not find subtype
+Did not find compatible
+Removed having
+Removed constructors
+Did not find noted
+Did not find below
+Did not find ):
+Did not find long
+Removed ()
+Removed const
+Removed std
+Removed ::
+Did not find string
+Did not find toString
+Did not find NumExpression
+Did not find subclass
+Removed A
+Removed constructor
+Did not find PlusExpression
+Removed *
+Did not find lhs
+Did not find rhs
+Did not find MinusExpression
+Did not find TimesExpression
+Did not find DivExpression
+Removed may
+Removed wish
+Did not find add
+Did not find other
+Removed or
+Did not find but
+Removed do
+Did not find extend
+Did not find directly
+Removed if
+Did not find see
+Did not find similarity
+Did not find between
+Removed some
+Did not find pull
+Did not find out
+Removed into
+Removed another
+Removed those
+Removed are
+Did not find welcome
+Did not find encouraged
+Removed want
+Removed implement
+Did not find lot
+Removed by
+Did not find relying
+Did not find dynamic
+Did not find dispatch
+Did not find few
+Did not find concrete
+Did not find details
+Removed 1
+Did not find representation
+Did not find An
+Did not find (+
+Did not find E1
+Did not find E2
+Removed result
+Did not find new
+Removed first
+Did not find argument
+Removed ),
+Removed second
+Removed ).
+Removed This
+Did not find similar
+Removed number
+Did not find like
+Did not find 9
+Did not find 27
+Did not find resultin
+Did not find created
+Did not find numeric
+Did not find value
+Did not find passed
+Did not find 2
+Did not find parser
+Did not find etc
+Did not find never
+Removed make
+Removed copy
+Did not find assign
+Did not find worry
+Did not find about
+Removed operator
+Removed =
+Did not find Each
+Removed object
+Did not find ",
+Did not find referenced
+Removed most
+Removed one
+Removed either
+Did not find +,-,*,
+Did not find /).
+Did not find When
+Did not find destructed
+Did not find responsible
+Did not find destructing
+Did not find any
+Did not find expressions
+Did not find has
+Removed them
+Did not find Plus
+Did not find Minus
+Did not find Times
+Did not find Div
+Did not find Expressions
+Removed function
+Removed return
+Did not find "(
+Did not find )".
+Did not find Note
+Did not find difficult
+Did not find figure
+Did not find where
+Did not find truly
+Did not find needed
+Did not find put
+Did not find around
+Did not find output
+Did not find always
+Did not find So
+Did not find 7
+Did not find "((
+Did not find declare
+Removed your
+Removed h
+Removed can
+Did not find just
+Did not find inside
+Did not find 6
+Removed provided
+Did not find sample_input
+Removed txt
+Did not find sample_output
+Did not find show
+Removed sample
+Did not find inputs
+Did not find produce
+Did not find respectively
+Did not find also
+Removed included
+Did not find invalid_inputs
+Did not find invalid_output
+Did not find invalid
+Did not find handles
+Did not find resulting
+Did not find error
+Removed cases
+Did not find here
+Did not find sure
+Did not find leak
+Did not find memory
+Removed when
+Did not find cleans
+Did not find up
+Did not find HINTS
+Did not find =====
+Did not find These
+Did not find things
+Did not find did
+Did not find my
+Removed useful
+Did not find least
+Did not find think
+Removed free
+Did not find fit
+Removed might
+Did not find talk
+Removed over
+Did not find My
+Did not find abstract
+Did not find functions
+Did not find more
+Did not find hierarchy
+Did not find fields
+Did not find otherwise
+Removed appear
+Removed each
+Did not find subclasses
+Removed adds
+Removed use
+Did not find With
+Did not find approach
+Did not find once
+Did not find override
+Did not find itself
+Did not find evaluating
+Did not find lefthand
+Did not find side
+Did not find right
+Did not find hand
+Removed then
+Removed adding
+Removed two
+Removed results
+Did not find get
+Did not find answer
+Did not find Think
+Removed how
+Did not find static
+Removed type
+Did not find pretty
+Did not find much
+Did not find everything
+Removed /
+Did not find printing
+Did not find stringstream
+Removed very
+Did not find nice
+Did not find implementing
+1: 12
+1: ==============================
+1: problem
+1: making
+1: doubly
+1: ones
+1: lecture
+1: singly
+1: ll
+1: create
+1: holds
+1: contain
+1: inner
+1: nodes
+1: next
+1: previous
+1: too
+1: Two
+1: s
+1: addFront
+1: front
+1: addBack
+1: back
+1: bool
+1: specified
+1: assume
+1: ==
+1: overloaded
+1: Ts
+1: tell
+1: true
+1: was
+1: actually
+1: removed
+1: false
+1: existed
+1: only
+1: multiple
+1: match
+1: [](
+1: gives
+1: reference
+1: element
+1: 0
+1: extends
+1: throw
+1: instance
+1: requested
+1: exist
+1: non
+1: version
+1: exists
+1: default
+1: NULL
+1: deep
+1: copies
+1: field
+1: tracks
+1: size
+1: Hints
+1: ------
+1: Write
+1: destroy
+1: intialize
+1: sane
+1: state
+1: work
+1: No
+1: seriously
+1: draw
+1: picture
+1: checks
+1: invariants
+1: structure
+1: while
+1: call
+1: after
+1: finish
+1: modification
+1: assert
+1: ease
+1: Testing
+1: uses
+1: variety
+1: ways
+1: takes
+1: command
+1: line
+1: arguments
+1: name
+1: splitting
+1: note
+1: job
+1: counts
+1: many
+1: occurences
+1: word
+1: sort
+1: remaining
+1: prints
+1: '
+1: ve
+1: running
+1: ./
+1: ../
+1: c11
+1: >
+1: smaller
+1: simpler
+1: debug
+1: feel
+2: templated
+2: private
+2: Node
+2: void
+2: remove
+2: starting
+2: exception
+2: int
+2: no
+2: such
+2: tail
+2: returns
+2: getSize
+2: destructor
+2: Draw
+2: pictures
+2: debugging
+2: =================
+2: wrote
+2: files
+2: does
+2: there
+2: removes
+2: words
+2: README
+2: test
+2: ---
+3: linked
+3: from
+3: index
+3: head
+3: items
+3: both
+3: file
+3: count
+4: data
+4: LinkedList
+5: T
+5: &
+12: list
+13: item

@@ -1,0 +1,53 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+long power(long x, long y) {
+  long ans;
+  if(x>0)
+    {
+      if(y==0)
+	{
+	ans=1;
+	}
+      if(y>=1)
+	{
+	  y--;
+	  ans=power(x,y);
+	  ans=ans*x;
+	}
+    }
+  if(x==0)
+    {
+      ans=0;    
+    }
+  return ans;
+}
+
+
+
+int main(void) {
+  long n1,n2;
+  size_t numbers=100;
+  char *string,*endptr;
+  long ans;
+  string=(char*)malloc(numbers);
+  
+  while((getline(&string,&numbers,stdin))!=-1)
+    {
+      endptr=string;
+      if(*endptr=='\n')
+	{
+	  fprintf(stderr,"Empty Line!");
+	
+	continue;
+	}
+      n1=strtol(endptr,&endptr,10);
+      endptr++;
+      n2=strtol(endptr,&endptr,10);
+      ans=power(n1,n2);
+      printf("%ld\n",ans);
+    }
+  fflush(stdout);
+  free(string);
+  return EXIT_SUCCESS;
+}

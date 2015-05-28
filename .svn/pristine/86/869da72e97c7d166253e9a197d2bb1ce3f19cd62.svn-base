@@ -1,0 +1,58 @@
+#include<iostream>
+#include<cstdlib>
+#include<string.h>
+#include<stdio.h>
+#include<ctype.h>
+#include<sstream>
+class Expression {
+  // protected: 
+  // long number;
+ public:
+  long number;
+  Expression() { number=0; } 
+ virtual std::string toString() const =0;
+ virtual ~Expression() {};
+};
+
+class NumExpression : public Expression { 
+ private: long number1;
+ public:
+  NumExpression(long num) {
+    number1=num;
+  }
+  std::string toString() const { 
+    std::stringstream str1;
+    str1<<number1;
+    std::string str;
+    str1>>str;
+    return str;
+  }
+  ~NumExpression() {};
+};
+
+class PlusExpression : public Expression {
+ private:
+  long num1;
+  long num2;
+
+ public:
+  PlusExpression(Expression * lhs, Expression *rhs)
+    {
+      num1 = lhs->number;
+      num2 = rhs->number;
+    }
+  std::string toString() const {
+    std::stringstream str;
+    std::string s;
+    str<<'(';
+    str<<num1;
+    str<<' '<<'+'<<' ';
+    str<<num2;
+    str<<')';
+    str>>s;
+      return s;
+  }
+
+  ~PlusExpression() {
+    }
+};

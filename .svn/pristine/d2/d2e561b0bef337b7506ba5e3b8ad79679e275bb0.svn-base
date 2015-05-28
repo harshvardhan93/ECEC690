@@ -1,0 +1,1 @@
+./palindrome input.txt

@@ -1,0 +1,68 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+README
+test.c
+==
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+broken.c
+README
+==
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Test case failed to produce the correct output!
+Differences (first 10 lines): 
+===============
+123							      |	321
+abcd							      |	dcba
+Captain's log, Stardate 42523.7				      |	7.32524 etadratS ,gol s'niatpaC
+Hello, my name is Inigo Montoya.			      |	.ayotnoM oginI si eman ym ,olleH
+You can be my wingman anyday!				      |	!yadyna namgniw ym eb nac uoY
+Executor Selendis! Unleash the full power of your forces! The |	!worromot on eb yam erehT !secrof ruoy fo rewop lluf eht hsae
+===============
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+***********************
+* Starting test 1     *
+***********************
+Test case failed to produce the correct output!
+Differences (first 10 lines): 
+===============
+         1 (       1) => 001231875673276700008320117940364750 |	         1 (       1) => 00000000000000000000000000000001
+         2 (       2) => 136734316863560056008034141955201368 |	         2 (       2) => 00000000000000000000000000000010
+         3 (       3) => 161403602097152016161561601371055872 |	         3 (       3) => 00000000000000000000000000000011
+         4 (       4) => 446240136734372863136734372863680680 |	         4 (       4) => 00000000000000000000000000000100
+         5 (       5) => 136876268463136876268463261480261480 |	         5 (       5) => 00000000000000000000000000000101
+        15 (       F) => 001359012278631361186776631231882163 |	        15 (       F) => 00000000000000000000000000001111
+       109 (      6D) => 301609292720325482090266759013589943 |	       109 (      6D) => 00000000000000000000000001101101
+ 123456789 ( 75BCD15) => 001359012278631361186776631231882163 |	 123456789 ( 75BCD15) => 00000111010110111100110100010101
+ 987654321 (3ADE68B1) => 301609292720325482090266759013589943 |	 987654321 (3ADE68B1) => 00111010110111100110100010110001
+							      >	Invalid call to numToBits! nBits is 223, nNums is 7
+===============
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0

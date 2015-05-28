@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int fib (int n)
+{
+  int previous=0,new=1;
+      for(int i=0;i<n;i++)
+	{ 
+	  new=new+previous;
+	  previous=new-previous;
+	}
+ 
+  return previous;
+}
+
+int main (void)
+{
+  int ans;
+  for(int i=-2;i<=30;i++)
+    {
+      ans=fib (i);
+      printf("fib(%d) = %d\n",i,ans);
+    }
+  return EXIT_SUCCESS;
+}

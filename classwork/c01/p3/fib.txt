@@ -1,0 +1,48 @@
+Step 1: Find the Fibonacci series 5th term.
+ Here N=5
+ 0th term = 0
+ 1st term = 1
+ 2nd term = 1 (0+1)
+ 3rd term = 2 (1+1)
+ 4th term = 3 (1+2)
+ 5th term = 5 (2+3)
+
+Step 2:
+Consider the first and second terms to be 0 & 1
+Now,
+3rd term = sum of terms one and two
+4th term = sum of terms two and three
+5th term = sum of terms three and four
+
+Step 3:
+Let the first term be p (previous) and the second term to be n(new).
+Let p be 0 and n be 1.
+Run a loop from 0 to (N-1).
+    Compute the sum of p and n and assign the sum to n
+    Now subtract p from the new n and assign it to p.
+Return the value of p
+
+In the cases involving 0 and lesser values, the answer returned is always 0 since we never enter the loop and always return the initial assinged value of p which is 0.
+ 
+Step 4:
+Let us compute the 6th term of the Fibonacci series using the above algorithm.
+Let us take p=0 and n=1
+Now we run a loop from 0 to 5
+    
+for i=0
+    n=1, p=1
+for i=1
+    n=2, p=1
+for i=2
+    n=3, p=2
+for i=3
+    n=5, p=3
+for i=4
+    n=8, p=5
+for i=5
+    n=13,p=8
+
+return p
+
+The returned value is 8 which is correct.
+

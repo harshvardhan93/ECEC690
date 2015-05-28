@@ -1,0 +1,53 @@
+Grading p1 (worth 40 points)
+-------------------------------------------------
+I could not find answer.txt
+The files you have here are:
+==
+README
+test.c
+==
+Percent this problem: 0 (= 0 / 40 points)
+------------------------------------------
+
+
+Grading p2 (worth 25 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p2'
+make: *** No targets specified and no makefile found.  Stop.
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p2'): skipping all tests
+Percent this problem: 0 (= 0 / 25 points)
+------------------------------------------
+
+
+Grading p3 (worth 20 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p3'
+gcc -o exp -Wall -Werror -pedantic -std=gnu99 exp.c
+cc1: warnings being treated as errors
+exp.c: In function ‘power’:
+exp.c:6: error: control reaches end of non-void function
+make: *** [exp] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p3'): skipping all tests
+Percent this problem: 0 (= 0 / 20 points)
+------------------------------------------
+
+
+Grading p4 (worth 15 points)
+-------------------------------------------------
+Compilation failed (make failed: make: Entering directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p4'
+gcc -Wall -Werror -std=gnu99 -pedantic -ggdb3 -o ant ant.c
+cc1: warnings being treated as errors
+ant.c: In function ‘readVector’:
+ant.c:34: error: control reaches end of non-void function
+ant.c: In function ‘lineToPoint’:
+ant.c:21: error: control reaches end of non-void function
+ant.c: In function ‘follow’:
+ant.c:16: error: control reaches end of non-void function
+make: *** [ant] Error 1
+make: Leaving directory `/mnt/ecec-690/topfiles/svn/ecec690-fall2014-hka25/classwork/c07/p4'): skipping all tests
+Percent this problem: 0 (= 0 / 15 points)
+------------------------------------------
+
+
+=============================================
+Overal score: 0
